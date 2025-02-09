@@ -1,7 +1,9 @@
+import nltk
+nltk.download("punkt")
+nltk.download("punkt_tab")
 import streamlit as st
 import joblib
 import re
-import nltk
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 from nltk.stem import WordNetLemmatizer
